@@ -35,7 +35,6 @@ MyDocument.getInitialProps = async (ctx) => {
 
     return {
       ...initialProps,
-      // Styles fragment is rendered after the app and page rendering finish.
       styles: [
         <React.Fragment key="styles">
           {initialProps.styles}
